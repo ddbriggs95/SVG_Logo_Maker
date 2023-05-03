@@ -67,7 +67,6 @@ function generateLogo(data) {
 }
 
 
-
 //function to initalize app
 function init () {
     inquirer.prompt(questions).then(function(data) {
