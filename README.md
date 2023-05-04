@@ -2,7 +2,8 @@
 
 ## Description
 
-This challenge asked me to generate a simple logo automatically to be used for projects so you don't have to pay for a graphic designer.
+This challenge asked me to generate a simple logo (utilizing SVG) automatically to be used for projects so you don't have to pay for a graphic designer. User can invoke this application and input the correct information through prompts directly from the command line.
+
 ## Acceptance Criteria
 
 GIVEN a command-line that accepts user input
