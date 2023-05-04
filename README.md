@@ -26,7 +26,7 @@ GIVEN a command-line that accepts user input
 
 Below is a demonstration of how the application works via the command line:
 
-
+https://drive.google.com/file/d/1KVicrV1Kcv9LU-a73zJ5ROy9jM_0gfrg/view
 
 
 GitHub repository: https://github.com/ddbriggs95/SVG_Logo_Maker
