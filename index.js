@@ -9,7 +9,7 @@ const {Circle, Square, Triangle} = require("./lib/shapes");
 const questions = [
     {
         type: 'input',
-        message: 'Please enter the text characters you want for your logo',
+        message: 'Please enter the text characters you want for your logo. Cannot be more than 3 characters.',
         name: 'text'
     },
     {
@@ -29,7 +29,7 @@ const questions = [
         name: 'shapeColor'
     }
 
-]
+];
 // .then((responses) => {
 //     if(responses.text.length > 3) {
 //         console.log("Must be no more than 3 characters");
@@ -70,8 +70,12 @@ function generateLogo(data) {
 //function to initalize app
 function init () {
     inquirer.prompt(questions).then(function(data) {
+        if(data.text.length > 3){
+            console.log("Must be no more than 3 characters for logo text. Please try again");
+        } else {
         var fileName = "logo.svg";
         writeToFile(fileName, data);
+        }
     });
 };
 
